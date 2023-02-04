@@ -3,7 +3,6 @@ body {
     font-family: 'Itim', cursive;
     margin: 0px;
     padding: 0px;
-    width: 100%;
 }
 img{
     margin:2rem;
@@ -22,12 +21,14 @@ textarea {
     height: 5rem;
     width: 30rem;
     padding: 2rem;
-    margin: 1rem;
+    margin: auto;
+
     font-family: 'Itim', cursive;
     font-size: large;
 }
 
 #output {
+    box-sizing: border-box;
     border: 1px solid black;
     margin: 1rem;
     padding: 1rem;
@@ -36,30 +37,25 @@ textarea {
 }
 
 .center-container {
-    max-width: 500px;
-    margin: 0rem auto;
-    padding: 0rem 0rem;
+    max-width: 600px;
+    margin: auto;
+    padding: 0.2rem;
 }
 
 
 .footer {
     background-color: #a3e635;
-    padding: 2rem 1rem;
+    padding: 1rem;
     text-align: center;
-    color:black;
+    margin-top: 2rem;
 }
 
-.link {
-    list-style-type: none;
+.footer h4{
+    margin-bottom: 0px;
+}
+.footer a{
     text-decoration: none;
-    color:black;
-}
-.inline-list {
-    display: inline;
-    padding: 0rem 0.5rem;
-}
-.non-bullet-list{
-    list-style: none;
+    color:rgb(49, 49, 60);
 }
 .header {
     background-color: #a3e635;

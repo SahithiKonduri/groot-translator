@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
 body {
-    font-family: 'Kalam', cursive;
+    font-family: 'Itim', cursive;
     margin: 0px;
     padding: 0px;
+    width: 100%;
 }
 img{
     margin:2rem;

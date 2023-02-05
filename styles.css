@@ -6,8 +6,8 @@
 }
 body{
     font-family: 'Itim', cursive;
-    margin: 0px;
-    padding: 0px;
+    /* margin: 0px;
+    padding: 0px; */
     color: white;
 }
 .title{
@@ -49,9 +49,7 @@ textarea {
     height: 18vh;
     width: 100%;
     color: #000000;
-        
 }
-
 .btn{
     background-color: var(--primary-color);
     padding: 1rem;
@@ -69,28 +67,10 @@ textarea {
     padding: 0.5rem 0;
     font-weight: 900;  
 }
-.footer{
+#footer{
     background-color: var(--primary-color);
-    padding: 1rem;
+    color: black;
+    margin: auto;
     text-align: center;
-    margin-top: 2rem;
+    padding: 1rem 1rem;
 }
-.footer h2{
-    font-size: x-large;
-    font-weight: bolder;
-    color: black;
-}
-.footer p{
-    max-width: 900px;
-    line-height: 1.5;
-    color: black;
-    font-size:larger;
-}
-.footer h4{
-   margin-bottom: 0px; 
-   color: black;
-}
-.footer a{
-    text-decoration: none;
-    color: rgb(49, 49, 60);
- }

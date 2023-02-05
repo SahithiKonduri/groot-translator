@@ -5,20 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>groot translator</title>
+    <link href="styles.css" rel="stylesheet">
 </head>
 <body>
-    <link href="style.css" rel="stylesheet">
-    <h2 class="header">Groot Translator</h2>
-    <div class="center-container">
-        <img src="images/groot.jpg" height="300" width="500">
+    <div class="header">
+            <h2 class="title">Groot Translator</h2>
+        </div>
+    <div class="container">
+        <img class="header-img" src="images/groot.jpg"  width="400" height="400">
         <textarea id="txt-input" placeholder="please type a sentence in English...."></textarea>
-        <button id="btn-translate">Translate to Groot</button>
-        <h3 style="padding-left:1rem;">Translated text appears here👇</h3>
+        <button id="btn-translate" class="btn">Translate to Groot</button>
+        <div class="output-head" style="color:black;">Translated text appears here👇</h3>
         <div id="output"></div>
     </div>
     <div class="footer">
         <h2>about</h2>
-        <p class="center-container" style="font-size:medium;">Groot is a fictional superhero appearing in America comic books published by Marvel Comics. Created by Stan Lee, Lary Lieber and Jack Kirby, the character was a hit in Guardians of the galaxy and Avengers movies.</p>
+        <p>Groot is a fictional superhero appearing in America comic books published by Marvel Comics. Created by Stan Lee, Lary Lieber and Jack Kirby, the character was a hit in Guardians of the galaxy and Avengers movies.</p>
         <h4>Done by <a href="https://aspiredeveloper.netlify.app/">Sahithi Konduri</a></h4>
     </div>
     <script src="app.js" type="text/javascript"></script>

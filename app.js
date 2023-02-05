@@ -7,11 +7,16 @@ var serverUrl = "https://api.funtranslations.com/translate/groot.json"
 function getTranslateUrl(text) {
     return serverUrl + "?" + "text=" + text;
 }
+function errorHandler(error) {
+    console.log("error occured"+ error);
+    alert("something wrong with server! Try again after sometime.");
+}
 
 btnTranslate.addEventListener("click", function clickHandler() {
     var textInp = txtInp.value;
     fetch(getTranslateUrl(textInp)) 
     .then(response => response.json())
     .then(json => {output.innerText = json.contents.translated})
-     
+     .catch(errorHandler)
 })
+btnTranslate.addEventListener("click",clickHandler);
